@@ -1,0 +1,47 @@
+.App 
+{
+  text-align: center;
+}
+  
+.App-footer 
+{
+  background-color: #a5d9e9;
+  min-height: 75vh;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+}
+  
+.App-header
+{
+  background-color: #a5d9e9;
+  min-height: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(30px + 2vmin);
+  color: #194992;
+}
+
+.inline-textarea
+{
+  background-color: #26a9ce;
+  resize: none;
+  border: 2px solid #194992;
+  height: 400px;
+  width: 400px;
+  font-size: calc(5px + 2vmin);
+  color: white;  
+}
+  
+.run_btn
+{
+  background-color: #26a9ce;
+  font-size: calc(15px + 2vmin);
+  color: #194992;
+}
+  
+  
+  
