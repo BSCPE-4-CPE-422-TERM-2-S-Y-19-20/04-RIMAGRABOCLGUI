@@ -1,6 +1,7 @@
 .App 
 {
   text-align: center;
+  background-color: #a5d9e9;
 }
   
 .App-footer 
@@ -11,8 +12,9 @@
   flex-direction: row;
   align-items: baseline;
   justify-content: center;
+
 }
-  
+
 .App-header
 {
   background-color: #a5d9e9;
@@ -33,15 +35,32 @@
   height: 400px;
   width: 400px;
   font-size: calc(5px + 2vmin);
-  color: white;  
+  color: white;
+  text-align: center;
 }
-  
-.run_btn
+
+
+.red
 {
-  background-color: #26a9ce;
-  font-size: calc(15px + 2vmin);
-  color: #194992;
+  border: 2px solid #194992;
+  height:400px;
+  width: 400px;
+  font-size: calc(5px + 2vmin);
+  color: white;
+  background-color: rgb(206, 82, 82);
+  text-align: center;
 }
-  
+
+.green
+{
+  border: 2px solid #194992;
+  height:400px;
+  width: 400px;
+  font-size: calc(5px + 2vmin);
+  color: white;
+  background-color: rgb(52, 255, 52);
+  text-align: center;
+}
+
   
   
